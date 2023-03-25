@@ -1,0 +1,22 @@
+/*
+Sample Input1:
+Stack
+SampleOutput1:
+kcatS
+
+
+SampleInput2:
+Heaps
+Sample Output2:
+spaeH
+*/
+
+public class Solution{
+   public static String reverseString(String str){
+    String rev;
+    for(int i= str.length()-1; i>=0; i--){
+       rev = str.charAt(i);
+    }
+    return rev;
+    }
+}
